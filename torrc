@@ -4,6 +4,8 @@ RelayBandwidthRate 1024 KB
 RelayBandwidthBurst 1024 KB
 ContactInfo johnantoni AT fastmail DOT com
 Log notice file /var/log/tor/notices.log
+DirCache 0
+ExitRelay 0
 ExitPolicy accept *:20-23     # FTP, SSH, telnet
 ExitPolicy accept *:43        # WHOIS
 ExitPolicy accept *:53        # DNS
