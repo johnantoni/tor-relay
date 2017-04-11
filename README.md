@@ -19,4 +19,8 @@ command line instructions
 
 ## watch log file
 
-tail -f /var/log/tor/notices.log
+    tail -f /var/log/tor/notices.log
+
+## fix /var/lib/tor permission issue
+
+    chmod 700 -R /var/lib/tor
