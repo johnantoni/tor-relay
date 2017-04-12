@@ -24,3 +24,7 @@ command line instructions
 ## fix /var/lib/tor permission issue
 
     chmod 700 -R /var/lib/tor
+
+## notes
+
+* https://trac.torproject.org/projects/tor/wiki/doc/ReducedExitPolicy
